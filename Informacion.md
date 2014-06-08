@@ -6,13 +6,13 @@ En la raíz de la práctica encontrareis una estructura similar a esta:
 
 •.travis.yml
 
-•Informacion.md
+• Informacion.md
 
-•LICENSE
+• LICENSE
 
-•Makefile
+• Makefile
+ 
+• README.md
 
-•README.md
-
-•config.xml
+• config.xml
 
