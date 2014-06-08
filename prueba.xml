@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!DOCTYPE config PUBLIC "" "config.dtd">
+
+
+<config>
+	<poblacion>121</poblacion>
+	<prob_cruce>0.3</prob_cruce>
+	<prob_mutacion>0.001</prob_mutacion>
+</config>
