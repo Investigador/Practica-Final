@@ -58,5 +58,27 @@ fenotipo: punto (5.12, 5.12)
 valor de f(x) o aptitud: f(5.12, 5.12)=52.4288
 
 
+Para las pruebas se fijó la probabilidad de mutación a 0.001 y la probabilidad de cruce a 0.3, variando la población, y obteniendo los siguientes resultados:
 
 
+POBLACIÓN	 GENERACIONES	FITNESS/FENOTIPO	TIEMPO
+11	       590	        0,001	            0,0156 Segs. 
+121		     6	          0,005	            0,0156 Segs. 
+1331		   2	          0,0073	          0,0000 Segs.,
+2049		   5	          0,0025	          0,0156 Segs.
+4097		   3	          0,0041	          0,0156 Segs.
+8193		   1	          0,0036	          0,0156 Segs.
+16385		   1	          0,0034	          0,0624 Segs.
+32769		   1	          0,0004	          0,1093 Segs.
+65537		   1	          0,0002	          0,1874 Segs.
+131073		 1	          0,0002	          0,3758 Segs.
+
+
+Es evidente que con los valores fijados, manteniendo la probabilidad de mutación y cruce, lo primero que observamos es que 
+para obtener una dierencia en el tiempo de ejecución nos debemos ir a valores de población muy altos, con poblaciones oscilando 
+entre los 11 individuos y los 8193, el tiempo de ejecución era muy similar, variando a partir del 5 o 5 decimal (el caso de la
+población de 1331 es anecdótico, si repitiéramos esa ejecución múltiples veces acabaría acercándose el tiempo a la de las demás).
+
+Lo segundo que vemos es que conforme aumenta el tamaño de la pobación es más fácil que el mejor individuo se encuentre en la primera población, ya  a apartr de una población de 8193 individuos, no encontré nunca el mejor individuo fuera de la población inicial, siendo significativo el salto entre una población con 11 individuos y una con 121, pasando de unas 590 generaciones a 6 generaciones, el fitness/fenotipo vemos el valor que tendría en un punto dado (que también facilita por pantalla el programa) y que nos sírve para situarlo en la gráfica que se obtiene en el archivo. Lo intereante es que mientras al principio vemos como va tomando valores más elevados hasta que llega a un cierto tamaño de población, luego al ir incrementando este, comienza a descender, hasta que llega a un punto en que se mantiene practicamente constante.
+
+Variando la probabilidad de cruce y mutación, se obtienen resultados diferentes, evidentemente.
