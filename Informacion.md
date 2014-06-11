@@ -19,10 +19,31 @@ En la raíz de la práctica encontrareis una estructura similar a esta:
 • Pruebas AG.ods             (Resultado de las pruebas).
 
 
-En este programa se ha intentado realizar un programa para minimizar la función definida como f  X=Σi=0
-N xi
-2
+En este programa se ha intentado realizar un programa para minimizar la función definida como:
 
+f(x) = Sumnatoria desde i=0 hasta N. de (X sub i) elevado al cuadrado.
+
+En donde X = {X sub 1,X sub 2,.....,X sub N} y x tomo valores en el intervalo [-5.12, 5.12]. El valor de N será 2, para que la función sea bidimensional.
+Para codificar cada varibale x sub i, usamos 10 bits, por lo que solo podemos representar 1024 puntos. 
+
+Para implementar el AG se ha utilizado una selección por torneos de 2, cruce en un punto. PArando el AG cuando f(x) < 1*10 elevado a -2. Usamos elitismo de un individuo.
+Con idea de facilitar los cálculs del programa, se recomienda usar poblaciones impares.
+Ejemplo:
+Con una población de 11 individuos, selecciona 10 para cruzar, estos 10 generan 10 hijos, que serán mutados (o no) facilitándonos una población de 10 individuos, a la que añadimos el mejor individuo de la población anterior.
+
+Los parámetros que podemos variar son:
+
+• Población.
+
+• Probabilidad de cruce.
+
+• Probabilidad de mutación.
+
+El resto de parámetros están fijos.
+
+El código es comentado por funciones para que se pueda ver que hace cada una, se añadieron funciones para imprimir en archivo 
+ficheros de puntos, usados en GNUPLOT para dibujar gráficas, así como para imprimir por pantalla el genotipo asociado a un indiviuo que se le pasa como parámetro. Estas funciones no están activadas en el programa, añadiendo la llamada correspondiente
+en el código del programa se mostrarán. Se dejan desactivadas debido al tiempo que se toma en escribir el archivo con poblaciones grandes.
 
 
 
