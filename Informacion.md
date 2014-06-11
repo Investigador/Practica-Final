@@ -14,5 +14,11 @@ En la raíz de la práctica encontrareis una estructura similar a esta:
  
 • README.md
 
-• config.xml
+• prueba.xml
+
+• algoritmo_genetico.cpp
+
+• Pruebas AG.ods
+
+
 
