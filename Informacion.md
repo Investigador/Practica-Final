@@ -47,10 +47,16 @@ en el código del programa se mostrarán. Se dejan desactivadas debido al tiempo
 
 Dado que es una función bidimensional, y que la fun´ción está definida en unos límites fijados, tendremos un rango de soluciones que oscilará entre los siguientes valores:
 
-Genotipo: 0000000000 0000000000     fenotipo: punto (-5.12, -5.12)   valor de f(x) o aptitud: f(-5.12, -5.12)=52.4288
+Genotipo: 0000000000 0000000000     
+fenotipo: punto (-5.12, -5.12)   
+valor de f(x) o aptitud: f(-5.12, -5.12)=52.4288
 
 y
 
-Genotipo: 1111111111 1111111111     fenotipo: punto (5.12, 5.12)   valor de f(x) o aptitud: f(5.12, 5.12)=52.4288
+Genotipo: 1111111111 1111111111     
+fenotipo: punto (5.12, 5.12)   
+valor de f(x) o aptitud: f(5.12, 5.12)=52.4288
+
+
 
 
