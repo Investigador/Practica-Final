@@ -82,3 +82,8 @@ población de 1331 es anecdótico, si repitiéramos esa ejecución múltiples ve
 Lo segundo que vemos es que conforme aumenta el tamaño de la población es más fácil que el mejor individuo se encuentre en la población inicial, a partir de una población de 8193 individuos, no encontré nunca el mejor individuo fuera de la población inicial, siendo significativo el salto entre una población con 11 individuos y una con 121, pasando de unas 590 generaciones a 6 generaciones, el fitness/fenotipo vemos el valor que tendría en un punto dado y que nos sírve para situarlo en la gráfica que se obtiene en el archivo. Lo interesante es que mientras al principio vemos como va tomando valores más elevados hasta que llega a un cierto tamaño de población, luego al ir incrementando este, comienza a descender, hasta que llega a un punto en que se mantiene practicamente constante.
 
 Variando la probabilidad de cruce y mutación, se obtienen resultados diferentes, evidentemente.
+
+Es un algoritmo genético muy simple, que espero haber realizado correctamente, ya que es mi primer algoritmo genético y nunca había realizado nada de este tipo, al principio pensé en tomar los valores de un archivo de texto, ahsta que vi el ejercicio del compañero Juanjo, del que tomé la manera de leer los archivos de un fichero .xml, que me pareció más elegante y correcto que lo que yo mismo había realizado (la parte del código de lectura del archivo xml está basada en su código).
+
+En Junio de 2014
+Alfonso Soto García
