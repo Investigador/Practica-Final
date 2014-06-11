@@ -45,6 +45,9 @@ El código es comentado por funciones para que se pueda ver que hace cada una, s
 ficheros de puntos, usados en GNUPLOT para dibujar gráficas, así como para imprimir por pantalla el genotipo asociado a un indiviuo que se le pasa como parámetro. Estas funciones no están activadas en el programa, añadiendo la llamada correspondiente
 en el código del programa se mostrarán. Se dejan desactivadas debido al tiempo que se toma en escribir el archivo con poblaciones grandes.
 
+Dado que es una función bidimensional, y que la fun´ción está definida en unos límites fijados, tendremos un rango de soluciones que oscilará entre los siguientes valores:
 
-
+Genotipo: 0000000000 0000000000     fenotipo: punto (-5.12, -5.12)   valor de f(x) o aptitud: f(-5.12, -5.12)=52.4288
+y
+Genotipo: 1111111111 1111111111     fenotipo: punto (5.12, 5.12)   valor de f(x) o aptitud: f(5.12, 5.12)=52.4288
 
