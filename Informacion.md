@@ -132,8 +132,8 @@ Lo segundo que vemos es que conforme aumenta el tamaño de la población es más
 El archivo Puntos.dat generado por el programa y visualizado con GNUplot es el siguiente:
 
 <p>
-  <a href="https://github.com/Investigador/Practica-Final/grafico.png" target="_blank">
-    <img src="https://github.com/Investigador/Practica-Final/grafico.png" alt="Grafica generada en archivo Puntos.dat" style="max-width:100%;">
+  <a href="https://github.com/Investigador/Practica-Final/blob/master/grafico.png" target="_blank">
+    <img src="https://github.com/Investigador/Practica-Final/blob/master/grafico.png" alt="Grafica generada en archivo Puntos.dat" style="max-width:100%;">
   </a>
 </p>
 
