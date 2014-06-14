@@ -137,7 +137,6 @@ El archivo Puntos.dat generado por el programa y visualizado con GNUplot es el s
   </a>
 </p>
 
-![Gráfica](c:\Users\Sofia\SkyDrive\Documentos\grafico.png "Gráfica")
 
 ### Comentarios Finales ###
 
